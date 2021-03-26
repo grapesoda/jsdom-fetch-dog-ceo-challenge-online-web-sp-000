@@ -54,7 +54,7 @@ document.addEventListener('click', (e) => {  //anonymous function with e
 
 function selectBreedsFromLetter() {
     let allLists = document.getElementsByClassName('breed')
-    let listArray = new Array()
+    let listArray = new Array();
 
     for (let i=0; i<allLists.length; i++) {
         listArray.push(allLists[i])
