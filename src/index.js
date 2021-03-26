@@ -3,7 +3,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     fetchDogs()
     fetchBreeds() 
-    
 })
 
 function fetchDogs() {
